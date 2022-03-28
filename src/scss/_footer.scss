@@ -1,0 +1,33 @@
+.footer {
+padding: 20px 0 0 0;
+    &-wrapper {
+        text-align: center;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        &-logo {
+            margin-right: 58px;
+        }
+    }
+    &__social {
+        display: flex;
+        align-items: center;
+        &-link {
+            padding-right: 20px;
+            text-decoration: none;
+            display: block;
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+        &-icon {
+            display: inline-block;
+            &_active {
+                display: none;
+            }
+        }
+    }
+}
